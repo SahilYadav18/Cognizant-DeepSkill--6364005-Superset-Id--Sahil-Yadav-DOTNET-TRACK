@@ -1,0 +1,61 @@
+public class DocumentTesting {
+    public static void main(String []args){
+      DocumentFactory d1=new WordDocumentFactory();
+      Document d2=d1.createDocument();
+      d2.open();
+
+        DocumentFactory dd1=new PdfDocumentFactory();
+        Document dd2=dd1.createDocument();
+        dd2.open();
+
+        DocumentFactory ddd1=new ExcelDocumentFactory();
+        Document ddd2=ddd1.createDocument();
+        ddd2.open();
+    }
+}
+
+
+interface Document{
+    void open();
+}
+
+class WordDocument implements Document{
+    public void open(){
+        System.out.println("Word Doc opened....");
+    }
+}
+
+class PdfDocument implements Document{
+    public void open(){
+        System.out.println("PDF Doc opened....");
+    }
+}
+
+class ExcelDocument implements Document{
+    public void open(){
+        System.out.println("Excel Doc opened....");
+    }
+}
+
+abstract class DocumentFactory{
+    abstract Document createDocument();
+}
+
+class WordDocumentFactory extends DocumentFactory{
+    public Document createDocument(){
+        return new WordDocument();
+    }
+}
+
+class PdfDocumentFactory extends DocumentFactory{
+    public Document createDocument(){
+        return new PdfDocument();
+    }
+}
+
+class ExcelDocumentFactory extends DocumentFactory{
+    public Document createDocument(){
+        return new ExcelDocument();
+    }
+}
+
