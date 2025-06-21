@@ -62,5 +62,16 @@ public class DocumentTesting
 {
     public static void Main(string[] args)
     {
-        DocumentFactory d1 = new WordDocumentFactory();
-        IDocument d2 = d1.CreateDocument
+        DocumentFactory wordFactory = new WordDocumentFactory();
+        IDocument wordDoc = wordFactory.CreateDocument();
+        wordDoc.Open();
+
+        DocumentFactory pdfFactory = new PdfDocumentFactory();
+        IDocument pdfDoc = pdfFactory.CreateDocument();
+        pdfDoc.Open();
+
+        DocumentFactory excelFactory = new ExcelDocumentFactory();
+        IDocument excelDoc = excelFactory.CreateDocument();
+        excelDoc.Open();
+    }
+}
