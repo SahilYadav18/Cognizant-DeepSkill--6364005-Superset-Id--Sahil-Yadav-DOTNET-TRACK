@@ -1,37 +1,45 @@
-public class Loger{
-   private static Loger login;
-   private  Loger(){
-     System.out.println("Instance Created: ");
-   }
+using System;
 
-   public static Loger getInstance(){
-    if(login==null){
-        login=new Loger();
-    }  
-    return login;
-   }
-   public static void log(String Message){
-    System.out.println("LogedIn: "+Message);
-   }
+public class Loger
+{
+    private static Loger login;
 
+    private Loger()
+    {
+        Console.WriteLine("Instance Created:");
+    }
+
+    public static Loger GetInstance()
+    {
+        if (login == null)
+        {
+            login = new Loger();
+        }
+        return login;
+    }
+
+    public void Log(string message)
+    {
+        Console.WriteLine("LoggedIn: " + message);
+    }
 }
 
-public class LogerTest {
-    public static void main(String[]args){
-     Loger l1=Loger.getInstance();
-     Loger l2=Loger.getInstance();
-     if(l1==l2){
-        System.out.println("Both Instances are Same: ");
+public class LogerTest
+{
+    public static void Main(string[] args)
+    {
+        Loger l1 = Loger.GetInstance();
+        Loger l2 = Loger.GetInstance();
 
-     }
-     l1.log("Intilized Compnonets: ");
-     l2.log("Database Connected: ");
-      
+        if (l1 == l2)
+        {
+            Console.WriteLine("Both Instances are Same:");
+        }
 
-
+        l1.Log("Initialized Components:");
+        l2.Log("Database Connected:");
     }
-}  
-
+}
 
 
 
