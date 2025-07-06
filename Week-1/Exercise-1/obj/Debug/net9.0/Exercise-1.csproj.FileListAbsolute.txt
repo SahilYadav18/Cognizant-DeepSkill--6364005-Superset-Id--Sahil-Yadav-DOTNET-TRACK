@@ -1,0 +1,15 @@
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\bin\Debug\net9.0\Exercise-1.exe
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\bin\Debug\net9.0\Exercise-1.deps.json
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\bin\Debug\net9.0\Exercise-1.runtimeconfig.json
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\bin\Debug\net9.0\Exercise-1.dll
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\bin\Debug\net9.0\Exercise-1.pdb
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.AssemblyInfoInputs.cache
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.AssemblyInfo.cs
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.csproj.CoreCompileInputs.cache
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.sourcelink.json
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.dll
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\refint\Exercise-1.dll
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.pdb
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\Exercise-1.genruntimeconfig.cache
+C:\Users\KIIT\Desktop\New folder\Week1\Exercise-1\obj\Debug\net9.0\ref\Exercise-1.dll
